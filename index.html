@@ -29,9 +29,7 @@
         function play() {
             var audio = document.getElementById ("audio");
             audio.play();
-            audio.addEventListener ('ended' function () {
-                audio.play();
-            });
+            audio.repeat();
         }
     </script>
     
